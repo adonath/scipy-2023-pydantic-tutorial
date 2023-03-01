@@ -1,0 +1,15 @@
+
+name: scipy-2023-pydantic-tutorial
+
+channels:
+  - conda-forge
+
+variables:
+  PYTHONNOUSERSITE: "1"
+
+dependencies:
+  - python=3.9
+  - pydantic
+  - requests
+  - jupyter
+  - pandas
