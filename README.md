@@ -23,7 +23,7 @@ Proposed Outline:
 * Default values, optional values and Optional type
 * Model Config and Config.extra = “forbid”
 
-### Hands on exercises (15 min)
+### Hands on Exercises (15 min)
 
 ## IV. Advanced Usage (45 min)
 
@@ -51,7 +51,7 @@ Proposed Outline:
 * Model creation from NamedTuple, TypedDict or dataclasses
 * Dynamic model creation using create_model
 
-### Hands on exercises (30 - 45 min)
+### Hands on Exercises (30 - 45 min)
 
 ## V. Serialization and Deserialization (30 min)
 
@@ -64,7 +64,7 @@ Proposed Outline:
 * Config of serialization, excluding and including fields 
 * Performance remarks for serialization
 
-### Exercises (30 min)
+### Hands on Exercises (30 min)
 
 ## BREAK (10 min)
 
