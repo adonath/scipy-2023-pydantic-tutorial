@@ -13,3 +13,5 @@ dependencies:
   - requests
   - jupyter
   - pandas
+  - matplotlib
+  - mypy
