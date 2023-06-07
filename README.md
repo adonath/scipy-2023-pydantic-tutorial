@@ -1,5 +1,8 @@
 # Building better data structures, APIs and configuration systems for scientific software using Pydantic
 
+This tutorial is an introduction to [Pydantic](https://pydantic.dev), a library for data validation and settings management using Python type annotations. Using a semi-realistic ML and / or scientific software pipeline scenario we demonstrate how Pydantic can be used to support type validations for scientific data structures, APIs and configuration systems. We show how the use of Pydantic in scientific and ML software leads to a more pleasant user experience as well as more robust and easier to maintain code. A minimum knowledge of Python type annotations, class definitions and data structures will be helpful
+for beginners but not required.
+
 Proposed Outline:
 
 ## I. Introduction (10 min) [Axel]
@@ -34,7 +37,7 @@ Proposed Outline:
 * Working with datetime types
 * Defining custom data types
 * Building hierarchical structures / recursive models
-* Defining private attributes via ClassVar, PrivateAttr and Config 
+* Defining private attributes via ClassVar, PrivateAttr and Config
 
 ### IV.b Type Validation [Nick]
 
