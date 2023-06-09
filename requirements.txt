@@ -2,3 +2,5 @@ pydantic
 jupyter
 requests
 pandas
+matplotlib
+mypy

@@ -1,0 +1,4 @@
+__pycache__/
+.mypy_cache
+.ipynb_checkpoints
+notebooks/my_script.py
