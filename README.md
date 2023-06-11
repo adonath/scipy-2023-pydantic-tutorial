@@ -29,11 +29,11 @@ For each section outlined above we will provide jupyter notebooks for demonstrat
 ## Overview
 We will cover the following chapters:
 
-  #. [Introduction and Installation](notebooks/1-introduction-and-installation.ipynb)
-  #. [Basic Usage](notebooks/2-basic-usage.ipynb)
-  #. [Advanced Usage](notebooks/3-advanced-usage.ipynb)
-  #. [Serialisation and Deserialisation](notebooks/4-serialisation-and-deserialisation.ipynb)
-  #. [Summary and Conclusion](notebooks/5-summary-and-conclusion.ipynb)
+  1. [Introduction and Installation](notebooks/1-introduction-and-installation.ipynb)
+  2. [Basic Usage](notebooks/2-basic-usage.ipynb)
+  3. [Advanced Usage](notebooks/3-advanced-usage.ipynb)
+  4. [Serialisation and Deserialisation](notebooks/4-serialisation-and-deserialisation.ipynb)
+  5. [Summary and Conclusion](notebooks/5-summary-and-conclusion.ipynb)
 
 Here is a more complete [overview](overview.md).
 
