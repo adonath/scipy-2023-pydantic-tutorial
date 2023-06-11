@@ -25,3 +25,15 @@ For each section outlined above we will provide jupyter notebooks for demonstrat
 **Prerequisites**: A minimum knowledge of Python type annotations, class definitions and data structures will be helpful for beginners but not required. Some minimal knowledge of Pandas and Numpy for the hands-on exercises.
 
 **Prior Python Programming Level of Knowledge Expected**: Advanced beginners
+
+## Overview
+We will cover the following chapters:
+
+#. [Introduction and Installation](notebooks/1-introduction-and-installation.ipynb)
+#. [Basic Usage](notebooks/2-basic-usage.ipynb)
+#. [Advanced Usage](notebooks/3-advanced-usage.ipynb)
+#. [Serialisation and Deserialisation](notebooks/4-serialisation-and-deserialisation.ipynb)
+#. [Summary and Conclusion](notebooks/5-summary-and-conclusion.ipynb)
+
+Here is a more complete [overview](overview.md).
+
