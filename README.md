@@ -44,7 +44,7 @@ python check-setup.py
 
 If everything is installed correctly you should see the following message:
 
-```bash
+```
 ******************************************************************
 * Congratulations! You are ready to begin the Pydantic tutorial! *
 ******************************************************************
