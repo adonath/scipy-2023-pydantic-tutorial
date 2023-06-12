@@ -4,3 +4,5 @@ requests
 pandas
 matplotlib
 mypy
+PyYAML
+toml
