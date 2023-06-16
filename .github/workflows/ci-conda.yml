@@ -15,5 +15,6 @@ jobs:
           environment-file: environment.yaml
           init-shell: bash
       - name: Run notebooks
+        shell: bash -el {0}
         run: |
           jupyter nbconvert --execute --to html notebooks/*.ipynb
