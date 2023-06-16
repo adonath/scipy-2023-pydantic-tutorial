@@ -17,3 +17,4 @@ dependencies:
   - mypy
   - PyYAML
   - toml
+  - pre-commit
