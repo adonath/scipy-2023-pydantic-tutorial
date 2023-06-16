@@ -16,4 +16,4 @@ jobs:
           init-shell: bash
       - name: Run notebooks
         run: |
-          jupyter run notebooks/*.ipynb
+          jupyter nbconvert --execute --to html notebooks/*.ipynb

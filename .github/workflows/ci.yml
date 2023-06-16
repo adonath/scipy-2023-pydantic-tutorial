@@ -20,4 +20,4 @@ jobs:
           pip install -r requirements.txt
       - name: Run notebooks
         run: |
-          jupyter run notebooks/*.ipynb
+          jupyter nbconvert --execute --to html notebooks/*.ipynb
