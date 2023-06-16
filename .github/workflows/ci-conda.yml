@@ -1,4 +1,4 @@
-ame: CI-Conda
+name: CI-Conda
 on: [push, pull_request]
 jobs:
   run-notebooks:
