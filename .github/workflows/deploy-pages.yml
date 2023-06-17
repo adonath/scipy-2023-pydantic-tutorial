@@ -27,7 +27,7 @@ jobs:
           cp -r ./page ~/tmp
           git checkout gh-pages
           rm -rf *
-          cp -r ~/tmp/page/* .
+          cp -r ~/tmp/* .
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v4.1.6
         if: success()
