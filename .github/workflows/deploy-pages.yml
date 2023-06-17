@@ -24,10 +24,10 @@ jobs:
       - name: Run notebooks and copy to temp
         run: |
           jupyter nbconvert --output-dir='./page' --execute --to markdown notebooks/*.ipynb
-          cp -r ./page {{ $runner.temp }}
+          cp -r ./page ~/tmp
           git checkout gh-pages
           rm -rf *
-          cp -r {{ $runner.temp }}/page/* .
+          cp -r ~/tmp/page/* .
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v4.1.6
         if: success()
