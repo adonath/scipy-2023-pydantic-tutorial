@@ -18,6 +18,9 @@ jobs:
       - name: Install all dependencies
         run: |
           pip install -r requirements.txt
+      - name: Run check
+        run: |
+          python check-setup.py
       - name: Run notebooks
         run: |
           jupyter nbconvert --execute --to html notebooks/*.ipynb
