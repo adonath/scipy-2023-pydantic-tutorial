@@ -1,4 +1,4 @@
-pydantic
+pydantic==1.10.7
 jupyter
 requests
 pandas
