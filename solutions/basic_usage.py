@@ -36,12 +36,12 @@ class WeatherData(BaseModel):
     sunriseTime: Optional[str]
     sunsetTime: Optional[str]
 
-    def convert_to_celsius(self) -> None:
+    def convert_temperature_to_celsius(self) -> None:
         if not self.isCelsius:
             self.temperature = (self.temperature - 32) * 5 / 9
             self.isCelsius = True
 
-    def convert_to_fahrenheit(self) -> None:
+    def convert_temperature_to_fahrenheit(self) -> None:
         if self.isCelsius:
             self.temperature = self.temperature * 9 / 5 + 32
             self.isCelsius = False
@@ -52,7 +52,7 @@ def main() -> None:
     weather_data = [WeatherData(**data_sample) for data_sample in data_samples]
 
     for day in weather_data:
-        day.convert_to_celsius()
+        day.convert_temperature_to_celsius()
 
     mean_temperature = sum(day.temperature for day in weather_data) / len(weather_data)
     print(
