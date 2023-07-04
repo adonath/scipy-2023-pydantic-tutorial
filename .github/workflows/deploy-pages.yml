@@ -26,8 +26,7 @@ jobs:
           jupyter nbconvert --output-dir='./page' --execute --to markdown notebooks/*.ipynb
           cp -r ./page ~/tmp
           git checkout gh-pages
-          rm -rf *
-          cp -r ~/tmp/* .
+          cp -r ~/tmp ./notebooks-rendered
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v4.16.0
         if: success()
