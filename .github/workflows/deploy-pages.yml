@@ -27,6 +27,7 @@ jobs:
           cp -r ./page ~/tmp
           git checkout gh-pages
           cp -r ~/tmp ./notebooks-rendered
+          git clean -fdx
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v4.16.0
         if: success()
