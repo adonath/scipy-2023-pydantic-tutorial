@@ -1,10 +1,14 @@
+import argparse
 import importlib
 import warnings
 from pathlib import Path
 
 MODULE_IMPORT_NAMES = {
     "PyYAML": "yaml",
+    "mypy": "mypy.version",
 }
+
+IGNORE_MODULES = {"pre-commit"}
 
 
 message_success = (
@@ -25,9 +29,11 @@ def get_info_dependencies():
     info = {}
 
     with Path("requirements.txt").open() as fh:
-        dependencies = [line.strip() for line in fh.readlines()]
+        dependencies = [line.strip().split("=")[0] for line in fh.readlines()]
 
     for name in dependencies:
+        if name in IGNORE_MODULES:
+            continue
         try:
             with warnings.catch_warnings():
                 warnings.simplefilter("ignore")
@@ -53,10 +59,23 @@ def print_info(info, title):
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(
+        prog="Pydantic Tutorial Setup Check",
+        description="Check if all dependencies are installed.",
+    )
+
+    parser.add_argument(
+        "-s", "--strict", action="store_true", help="Fail for missing imports."
+    )
+    args = parser.parse_args()
+
     info = get_info_dependencies()
     print_info(info, title="Tutorial Dependencies")
 
     if "not installed" in info.values():
+        if args.strict:
+            raise ImportError("Missing dependencies.")
+
         print(message_failure)
     else:
         print(message_success)
