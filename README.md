@@ -15,7 +15,11 @@ To execute the notebooks and examples from this tutorial, you are expected to ha
 
 ```bash
 git clone https://github.com/adonath/scipy-2023-pydantic-tutorial
+
 ```
+:warning: **Note:** If you have cloned the repository before July 10, 2023, please make sure to update it to the latest version following the [instructions below](#updating-the-repository).
+
+
 And change to the cloned folder:
 
 ```bash
@@ -57,9 +61,29 @@ To execute the notebooks along with the presentation, start the Jupyter server:
 jupyter notebook
 ```
 
+### Updating the repository
+
+If you have cloned the repository before July 10, 2023, please make sure to update it to the latest version.
+In case you have local changes, we would recommend to store those in a separate branch before updating the repository. To do so, change to the cloned folder and execute the following commands:
+
+```bash
+git checkout -b my-local-changes
+git add .
+git commit -m "My local changes"
+```
+
+Then you can update the repository using:
+
+```bash
+git checkout main
+git pull origin main
+```
+
+Now you should have the latest version of the repository.
+
+
 ## Binder 
-If you don not have a working installation (for whatever reason) until the tutorial starts, you can also execute the tutorial in the browser using Binder.
-Just click on the following badge to start the Binder service:
+If you don not have a working installation (for whatever reason) until the tutorial starts, you can also execute the tutorial in the browser using Binder. Just click on the following badge to start the Binder service:
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/adonath/scipy-2023-pydantic-tutorial/HEAD)
 
