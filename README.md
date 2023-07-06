@@ -95,11 +95,14 @@ This will open a new tab with a clone of the repository and a running instance o
 ## Content Overview
 We will cover the following chapters:
 
-  1. [Introduction and Installation](notebooks/1-introduction-and-installation.ipynb)
-  2. [Basic Usage](notebooks/2-basic-usage.ipynb)
-  3. [Advanced Usage](notebooks/3-advanced-usage.ipynb)
-  4. [Serialisation and Deserialisation](notebooks/4-serialisation-and-deserialisation.ipynb)
-  5. [Summary and Conclusion](notebooks/5-summary-and-conclusion.ipynb)
+  1. [Introduction and Installation](notebooks/1-introduction-and-refreshers.ipynb)
+  1. [Basic Usage](notebooks/2-basic-usage.ipynb)
+  1. [Advanced Usage I](notebooks/3-advanced-usage-part-I.ipynb)
+  1. [Advanced Usage II](notebooks/3-advanced-usage-part-II.ipynb)
+  1. [Serialisation and Deserialisation](notebooks/4-serialisation-and-deserialisation.ipynb)
+  1. [Summary and Conclusion](notebooks/5-summary-and-conclusion.ipynb)
 
 Here is a more complete [overview](overview.md).
+
+You can find the rendered notebooks and smaple solutions to the exercises on the [GitHub pages](https://adonath.github.io/scipy-2023-pydantic-tutorial/) of this repository.
 
