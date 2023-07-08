@@ -83,7 +83,7 @@ Now you should have the latest version of the repository.
 
 
 ## Binder 
-If you don not have a working installation (for whatever reason) until the tutorial starts, you can also execute the tutorial in the browser using Binder. Just click on the following badge to start the Binder service:
+If you do not have a working installation (for whatever reason) before the tutorial starts, you can also execute the tutorial in the browser using Binder. Just click on the following badge to start the Binder service:
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/adonath/scipy-2023-pydantic-tutorial/HEAD)
 
