@@ -81,6 +81,21 @@ git pull origin main
 
 Now you should have the latest version of the repository.
 
+### Updating the Environment
+In case you have cloned the repository before July 10, 2023, please make sure to update the environment to the latest version. To do so, change to the cloned folder and execute the following commands:
+
+If you use a normal system Python installation you can update the environment using:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+If you use conda or mamba you can update the environment using:
+
+```bash
+conda env update -f environment.yaml
+```
+
 
 ## Binder 
 If you do not have a working installation (for whatever reason) before the tutorial starts, you can also execute the tutorial in the browser using Binder. Just click on the following badge to start the Binder service:

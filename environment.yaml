@@ -18,3 +18,4 @@ dependencies:
   - PyYAML
   - toml
   - pre-commit
+  - scipy

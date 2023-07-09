@@ -7,3 +7,4 @@ mypy
 PyYAML
 toml
 pre-commit
+scipy
