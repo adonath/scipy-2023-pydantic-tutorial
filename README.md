@@ -31,7 +31,7 @@ We recommend to use a virtual environment to install the required dependencies f
   
   ```bash
   python -m venv scipy-2023-pydantic-tutorial
-  ./scipy-2023-pydantic-tutorial/bin/activate
+  source ./scipy-2023-pydantic-tutorial/bin/activate
   python -m pip install -r requirements.txt
   ```
 
