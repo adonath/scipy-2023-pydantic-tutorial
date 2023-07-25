@@ -1,4 +1,4 @@
-https://github.com/adonath/scipy-2023-pydantic-tutorial/actions/workflows/ci.yml/badge.svg
+![example workflow](https://github.com/adonath/scipy-2023-pydantic-tutorial/actions/workflows/ci.yml/badge.svg)
 
 # Building better data structures, APIs and configuration systems for scientific software using Pydantic
 
