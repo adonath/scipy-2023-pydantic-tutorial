@@ -1,4 +1,5 @@
 ![example workflow](https://github.com/adonath/scipy-2023-pydantic-tutorial/actions/workflows/ci.yml/badge.svg)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/adonath/scipy-2023-pydantic-tutorial/HEAD)
 
 # Building better data structures, APIs and configuration systems for scientific software using Pydantic
 
